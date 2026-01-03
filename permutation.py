@@ -909,7 +909,7 @@ def analise_frequencia_colunar(cifrado):
     for trigrafo in acha_trigrafos(decripta_colunar(cifrado, chave_mais_provavel)):
         num_trigrafos += 1
 
-
+# Menu para o usuário
 def grid():
     print("O que deseja fazer?")
     print("1 - Criptografar")
